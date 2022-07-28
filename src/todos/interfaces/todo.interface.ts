@@ -4,3 +4,8 @@ export interface TodoDocument extends Document {
   readonly description: string;
   readonly completed: boolean;
 }
+export interface ITodo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
